@@ -1,79 +1,129 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>10</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>200</x>
-      <y>190</y>
-      <w>210</w>
-      <h>190</h>
+      <x>248</x>
+      <y>56</y>
+      <w>168</w>
+      <h>152</h>
     </coordinates>
     <panel_attributes>Map
 
 --
--Name : string
--Salle : array [Room]
+- name : string
+
 --
-+ getName(): Position
-+ getSalle():Contenu
-+ SetName(x,y)</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>510</x>
-      <y>690</y>
-      <w>210</w>
-      <h>190</h>
+      <x>464</x>
+      <y>256</y>
+      <w>184</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>Room
 
 --
--name: string
--Position: Position 
--Case : Case
+- name : string
+
 --
-+ getPosition(): Position
-+ getContenu():Contenu
-+ getCase():case</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>100</x>
-      <y>630</y>
-      <w>210</w>
-      <h>190</h>
+      <x>192</x>
+      <y>352</y>
+      <w>104</w>
+      <h>128</h>
     </coordinates>
     <panel_attributes>Case
 
 --
--Position : Position
--Contenu : Contenu
---
-+ getPosition(): Position
-+ getContenu():Contenu
-+ SetPosition(x,y)</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>340</x>
-      <y>480</y>
-      <w>210</w>
-      <h>190</h>
+      <x>520</x>
+      <y>64</y>
+      <w>104</w>
+      <h>104</h>
     </coordinates>
     <panel_attributes>Position
 
 --
--x:int
--y:int
+- x : double
+- y : double
 --
 </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>264</y>
+      <w>160</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Personnage
+--
+- nom : string
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>672</x>
+      <y>440</y>
+      <w>88</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Inventaire
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>584</x>
+      <y>512</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Equipement</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>688</x>
+      <y>512</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Consommables</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>784</x>
+      <y>512</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Objet Quête</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
