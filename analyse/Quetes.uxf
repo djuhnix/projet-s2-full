@@ -4,59 +4,37 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>320</x>
-      <y>20</y>
-      <w>210</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>Inventaire
---
-- nombreMaxObjets : int
-- contenu : array d'objets  </panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>560</x>
-      <y>20</y>
-      <w>100</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>Dialogue
--
-- texte : string</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>150</x>
-      <y>20</y>
-      <w>140</w>
-      <h>110</h>
+      <x>340</x>
+      <y>300</y>
+      <w>220</w>
+      <h>170</h>
     </coordinates>
     <panel_attributes>Quête
 --
 - libellé :string
 - description:string
-- état:string</panel_attributes>
+- étatQuete: EtatQuete
+- pnj : personnageNonJoueur
+- recompense : Objet
+- objetARecuperer : Objet
+- nombreExemplaire : int
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
-      <y>20</y>
-      <w>110</w>
+      <x>930</x>
+      <y>320</y>
+      <w>140</w>
       <h>100</h>
     </coordinates>
     <panel_attributes>&lt;&lt;enumeration&gt;&gt;
 EtatQuete
 -
-etat: NonAtribué
-etat: Réussies
-etat: EnCours
++ NONATTRIBUEES
++ REUSSIES
++ ENCOURS
 </panel_attributes>
     <additional_attributes/>
   </element>

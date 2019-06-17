@@ -260,8 +260,8 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>830</x>
-      <y>60</y>
+      <x>50</x>
+      <y>320</y>
       <w>210</w>
       <h>80</h>
     </coordinates>
