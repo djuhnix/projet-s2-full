@@ -4,34 +4,35 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>340</x>
-      <y>300</y>
+      <x>750</x>
+      <y>310</y>
       <w>220</w>
       <h>170</h>
     </coordinates>
     <panel_attributes>Quête
 --
-- libelle :string
-- description:string
+- libelle : string
+- description: string
 - étatQuete: EtatQuete
 - pnj : personnageNonJoueur
 - recompense : Objet
 - objetARecuperer : Objet
 - nombreExemplaire : int
-</panel_attributes>
+- expRapporte: int </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>930</x>
-      <y>320</y>
-      <w>140</w>
-      <h>100</h>
+      <x>1260</x>
+      <y>240</y>
+      <w>160</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>&lt;&lt;enumeration&gt;&gt;
 EtatQuete
 -
+
 + NONATTRIBUEES
 + REUSSIES
 + ENCOURS
