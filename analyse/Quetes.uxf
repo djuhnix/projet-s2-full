@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>10</zoom_level>
+  <zoom_level>9</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>750</x>
-      <y>310</y>
-      <w>220</w>
-      <h>170</h>
+      <x>405</x>
+      <y>414</y>
+      <w>198</w>
+      <h>153</h>
     </coordinates>
     <panel_attributes>Quête
 --
@@ -24,10 +24,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1260</x>
-      <y>240</y>
-      <w>160</w>
-      <h>140</h>
+      <x>864</x>
+      <y>351</y>
+      <w>144</w>
+      <h>126</h>
     </coordinates>
     <panel_attributes>&lt;&lt;enumeration&gt;&gt;
 EtatQuete
