@@ -42,7 +42,8 @@ Personnage
     <panel_attributes>ennemi
 --
 - pointsVie:int
-- nombresCoups : int</panel_attributes>
+- nombresCoups : int
+-nombreXp : int</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -58,7 +59,7 @@ Personnage
 - pointsVie : int
 - avancement : int
 - niveau : int
-- quetesEnCours:array:tableau de quetes 
+- quetes:array de quetes 
 - bourse :Inventaire
 - armures: array d'Equipement
 -
@@ -103,17 +104,121 @@ Personnage
   <element>
     <id>UMLInterface</id>
     <coordinates>
-      <x>20</x>
-      <y>200</y>
-      <w>100</w>
-      <h>140</h>
+      <x>820</x>
+      <y>20</y>
+      <w>220</w>
+      <h>180</h>
     </coordinates>
-    <panel_attributes>Se Déplacer
+    <panel_attributes>Actions principales: personnage 
 --
-Gauche()
-Droite()
-Haut()
-Bas()</panel_attributes>
+attaquer()
+recuperer()
+utliserObjet()
+seDeplacer()
+mourrir()
+interagir()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1160</x>
+      <y>0</y>
+      <w>210</w>
+      <h>970</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Avancement perso&gt;&gt;
+--
+_NIVEAU 1 :_
+	points de vie : 3
+	bourse : 10
+	exp : 30
+_niveau 2 :_
+	points de vie : 3
+	bourse : 11
+	exp : 45
+_niveau 3 :_
+	points de vie : 3
+	bourse : 12
+	exp : 65
+_niveau 4 :_
+	points de vie : 3
+	bourse : 13
+	exp : 80
+_niveau 5 :_
+	points de vie : 4
+	bourse : 13
+	exp : 100
+_niveau 6 :_
+	points de vie : 4
+	bourse : 14
+	exp : 120
+_niveau 7 :_
+	points de vie : 4
+	bourse : 15
+	exp : 120
+_niveau 8 :_
+	points de vie : 4
+	bourse : 16
+	exp : 130
+_niveau 9 :_
+	points de vie : 4
+	bourse : 17
+	exp : 145
+_niveau 10 :_
+	points de vie : 5
+	bourse : 18
+	exp : 170
+_niveau 11 :_
+	points de vie : 5
+	bourse : 18
+	exp : 200
+_niveau 12 :_
+	points de vie : 5
+	bourse : 19
+	exp : 240
+_niveau 13 :_
+	points de vie : 5
+	bourse : 20
+	exp : 280
+_niveau 14 :_
+	points de vie : 5
+	bourse : 21
+	exp : 320
+_niveau 15 :_
+	points de vie : 6
+	bourse : 21
+	exp : 400</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>570</y>
+      <w>230</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Dialogue
+-
+- texte : string
+-perso : Personnage Non Joueur</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>570</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Inventaire
+--
+- nombreMaxObjets : int
+- contenu : array d'objets  
+-perso : personnage</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
