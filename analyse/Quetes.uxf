@@ -11,7 +11,7 @@
     </coordinates>
     <panel_attributes>Quête
 --
-- libellé :string
+- libelle :string
 - description:string
 - étatQuete: EtatQuete
 - pnj : personnageNonJoueur

@@ -5,7 +5,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>400</x>
-      <y>20</y>
+      <y>30</y>
       <w>150</w>
       <h>110</h>
     </coordinates>
@@ -21,7 +21,7 @@ Personnage
     <id>UMLClass</id>
     <coordinates>
       <x>430</x>
-      <y>250</y>
+      <y>260</y>
       <w>160</w>
       <h>100</h>
     </coordinates>
@@ -35,7 +35,7 @@ Personnage
     <id>UMLClass</id>
     <coordinates>
       <x>610</x>
-      <y>220</y>
+      <y>230</y>
       <w>160</w>
       <h>100</h>
     </coordinates>
@@ -50,7 +50,7 @@ Personnage
     <id>UMLClass</id>
     <coordinates>
       <x>130</x>
-      <y>160</y>
+      <y>170</y>
       <w>290</w>
       <h>200</h>
     </coordinates>
@@ -61,8 +61,7 @@ Personnage
 - niveau : int
 - quetes:array de quetes 
 - bourse :Inventaire
-- armures: array d'Equipement
-- inventairePerso : Inventaire
+- objetsEquipés: array d'Equipement
 -
 - changerObjet():
 -recuperer()
@@ -73,7 +72,7 @@ Personnage
     <id>Relation</id>
     <coordinates>
       <x>480</x>
-      <y>120</y>
+      <y>130</y>
       <w>30</w>
       <h>150</h>
     </coordinates>
@@ -84,7 +83,7 @@ Personnage
     <id>Relation</id>
     <coordinates>
       <x>540</x>
-      <y>120</y>
+      <y>130</y>
       <w>140</w>
       <h>120</h>
     </coordinates>
@@ -95,7 +94,7 @@ Personnage
     <id>Relation</id>
     <coordinates>
       <x>360</x>
-      <y>120</y>
+      <y>130</y>
       <w>60</w>
       <h>60</h>
     </coordinates>
@@ -106,7 +105,7 @@ Personnage
     <id>UMLInterface</id>
     <coordinates>
       <x>820</x>
-      <y>20</y>
+      <y>30</y>
       <w>220</w>
       <h>180</h>
     </coordinates>
@@ -127,7 +126,7 @@ interagir()
       <x>1160</x>
       <y>0</y>
       <w>210</w>
-      <h>970</h>
+      <h>990</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Avancement perso&gt;&gt;
 --
@@ -197,7 +196,7 @@ _niveau 15 :_
     <id>UMLClass</id>
     <coordinates>
       <x>520</x>
-      <y>570</y>
+      <y>580</y>
       <w>230</w>
       <h>90</h>
     </coordinates>
@@ -211,7 +210,7 @@ _niveau 15 :_
     <id>UMLClass</id>
     <coordinates>
       <x>240</x>
-      <y>570</y>
+      <y>580</y>
       <w>210</w>
       <h>80</h>
     </coordinates>
