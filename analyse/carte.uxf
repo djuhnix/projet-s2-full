@@ -4,17 +4,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>240</x>
-      <y>20</y>
+      <x>130</x>
+      <y>70</y>
       <w>210</w>
-      <h>60</h>
+      <h>140</h>
     </coordinates>
-    <panel_attributes>carte
-
+    <panel_attributes>Zone
 --
-- id : string
+- name : string
 - width : int
 - height : int
+- salles : Salle[longeur][largeur]
 --
 </panel_attributes>
     <additional_attributes/>
@@ -22,46 +22,145 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
-      <y>20</y>
-      <w>200</w>
+      <x>590</x>
+      <y>70</y>
+      <w>180</w>
       <h>140</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;Enumération&gt;&gt;
-Environnement 
+    <panel_attributes>&lt;&lt;Abstract&gt;&gt;
+Cell
 --
-+ etat</panel_attributes>
+- objet : Objet
+- perso : PersonnageNonJoueur
+- mob : Ennemi = null
+- contenu : Objet = null
+- texture : Image
+--
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>630</x>
-      <y>20</y>
-      <w>130</w>
-      <h>80</h>
+      <x>360</x>
+      <y>70</y>
+      <w>210</w>
+      <h>140</h>
     </coordinates>
-    <panel_attributes>Cellule
---</panel_attributes>
+    <panel_attributes>Salle
+--
+- nom : string
+- longeur : int
+- largeur  : int
+- cases : Cell[longeur][largeur]
+- description : String
+--
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>460</x>
-      <y>20</y>
+      <x>280</x>
+      <y>370</y>
+      <w>180</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>CellNonTraversable
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>370</y>
+      <w>170</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>CellTraversable
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLInterface</id>
+    <coordinates>
+      <x>760</x>
+      <y>270</y>
+      <w>240</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Interface
+--
++ estTraversable() : bool 
++ infligeDegats(int nbDegats) : void 
++ procureSoin() : void 
++ procureObjet(Objet newObj) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>760</x>
+      <y>130</y>
+      <w>140</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>120.0;150.0;120.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>370</x>
+      <y>200</y>
+      <w>280</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>260.0;10.0;260.0;80.0;10.0;80.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>200</y>
+      <w>30</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>540</x>
+      <y>580</y>
       <w>160</w>
       <h>130</h>
     </coordinates>
-    <panel_attributes>Salle
-
+    <panel_attributes>CellDégats
 --
-- nom : string
-- Longeur : int
-- largeur  : int
-- lieu : carte
+- nbDégats : int
 --
 </panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>490</y>
+      <w>30</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
   </element>
 </diagram>
