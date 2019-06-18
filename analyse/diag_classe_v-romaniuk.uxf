@@ -1,77 +1,76 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>9</zoom_level>
+  <zoom_level>7</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>522</x>
-      <y>0</y>
-      <w>189</w>
-      <h>108</h>
+      <x>392</x>
+      <y>49</y>
+      <w>147</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes>&lt;&lt;abstract&gt;&gt;
 Objet
 --
-- e
-- desc :string
 - nom : string
-</panel_attributes>
+- description : string</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>279</x>
-      <y>135</y>
-      <w>243</w>
-      <h>99</h>
+      <x>203</x>
+      <y>154</y>
+      <w>189</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>Equipement
--
+--
+- nomEquipement :String
 
-- libEquip: string  
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>657</x>
-      <y>135</y>
-      <w>162</w>
-      <h>108</h>
+      <x>497</x>
+      <y>154</y>
+      <w>126</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes>Consommables
 -
-- statsBoost: float
+- amelioration: float
 - nombreUtilisation: int
 -
++ utiliser():void
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>963</x>
-      <y>9</y>
-      <w>162</w>
-      <h>117</h>
+      <x>735</x>
+      <y>56</y>
+      <w>126</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>ObjetSpecial
 -
 - utilite : string
  
 -
-</panel_attributes>
++ rendreVisible() : void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>369</x>
-      <y>342</y>
-      <w>99</w>
-      <h>54</h>
+      <x>273</x>
+      <y>315</y>
+      <w>77</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Bouclier
 -
@@ -81,10 +80,10 @@ Objet
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>261</x>
-      <y>342</y>
-      <w>90</w>
-      <h>54</h>
+      <x>189</x>
+      <y>315</y>
+      <w>70</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Armes
 -
@@ -94,10 +93,10 @@ Objet
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>477</x>
-      <y>342</y>
-      <w>99</w>
-      <h>54</h>
+      <x>357</x>
+      <y>315</y>
+      <w>77</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Armures
 --
@@ -107,10 +106,10 @@ Objet
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>288</x>
-      <y>225</y>
-      <w>27</w>
-      <h>135</h>
+      <x>210</x>
+      <y>224</y>
+      <w>21</w>
+      <h>105</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
@@ -118,10 +117,10 @@ Objet
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>225</y>
-      <w>27</w>
-      <h>135</h>
+      <x>301</x>
+      <y>224</y>
+      <w>21</w>
+      <h>105</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
@@ -129,10 +128,10 @@ Objet
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>495</x>
-      <y>225</y>
-      <w>27</w>
-      <h>135</h>
+      <x>371</x>
+      <y>224</y>
+      <w>21</w>
+      <h>105</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
@@ -140,10 +139,10 @@ Objet
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>675</x>
-      <y>99</y>
-      <w>27</w>
-      <h>54</h>
+      <x>511</x>
+      <y>126</y>
+      <w>21</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
@@ -151,10 +150,10 @@ Objet
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>702</x>
-      <y>45</y>
-      <w>279</w>
-      <h>27</h>
+      <x>532</x>
+      <y>84</y>
+      <w>217</w>
+      <h>21</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;290.0;10.0</additional_attributes>
@@ -162,10 +161,10 @@ Objet
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>360</x>
-      <y>36</y>
-      <w>180</w>
-      <h>117</h>
+      <x>266</x>
+      <y>77</y>
+      <w>140</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>180.0;10.0;10.0;10.0;10.0;110.0</additional_attributes>
@@ -173,10 +172,10 @@ Objet
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>819</x>
-      <y>432</y>
-      <w>189</w>
-      <h>81</h>
+      <x>623</x>
+      <y>385</y>
+      <w>147</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>chaque effet est géré diff
 ex : ajout de pv
@@ -187,10 +186,10 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>810</x>
-      <y>234</y>
-      <w>27</w>
-      <h>243</h>
+      <x>616</x>
+      <y>231</y>
+      <w>21</w>
+      <h>189</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;250.0</additional_attributes>
@@ -198,10 +197,10 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>954</x>
-      <y>117</y>
-      <w>27</w>
-      <h>333</h>
+      <x>728</x>
+      <y>140</y>
+      <w>21</w>
+      <h>259</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;350.0</additional_attributes>
@@ -209,10 +208,10 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>252</x>
-      <y>504</y>
-      <w>108</w>
-      <h>99</h>
+      <x>182</x>
+      <y>441</y>
+      <w>84</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>Arc
 -
@@ -224,10 +223,10 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>297</x>
-      <y>387</y>
-      <w>27</w>
-      <h>135</h>
+      <x>217</x>
+      <y>350</y>
+      <w>21</w>
+      <h>105</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
@@ -235,10 +234,10 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>972</x>
-      <y>261</y>
-      <w>117</w>
-      <h>81</h>
+      <x>742</x>
+      <y>252</y>
+      <w>91</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>ObjetADegats
 -
@@ -248,10 +247,10 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>999</x>
-      <y>117</y>
-      <w>27</w>
-      <h>162</h>
+      <x>763</x>
+      <y>140</y>
+      <w>21</w>
+      <h>126</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
@@ -259,24 +258,10 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>45</x>
-      <y>189</y>
-      <w>189</w>
-      <h>72</h>
-    </coordinates>
-    <panel_attributes>Inventaire
---
-- nombreMaxObjets : int
-- contenu : array d'objets  </panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>45</x>
-      <y>639</y>
-      <w>189</w>
-      <h>126</h>
+      <x>21</x>
+      <y>546</y>
+      <w>147</w>
+      <h>98</h>
     </coordinates>
     <panel_attributes>Niveau
 --
@@ -285,35 +270,35 @@ bg=blue</panel_attributes>
 - largeur : int
 - salles : Salle[longeur][largeur]
 --
-</panel_attributes>
++ ajouterSalle() : void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>459</x>
-      <y>639</y>
-      <w>162</w>
-      <h>126</h>
+      <x>343</x>
+      <y>546</y>
+      <w>175</w>
+      <h>98</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Abstract&gt;&gt;
 Cellule
 --
-- objets : Objet[] ou Inventaire
+- objets :Inventaire
 - personnage : PersonnageNonJoueur
-- adversaire  : Ennemi = null
+- adversaire  : Ennemi
 - texture : Image
 --
-</panel_attributes>
++ interagir() : void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>252</x>
-      <y>639</y>
-      <w>189</w>
-      <h>126</h>
+      <x>182</x>
+      <y>546</y>
+      <w>147</w>
+      <h>154</h>
     </coordinates>
     <panel_attributes>Salle
 --
@@ -322,17 +307,22 @@ Cellule
 - largeur  : int
 - cases : Cellule[longeur][largeur]
 - description : String
+- celluleEntréeNord:Cellule
+- celluleEntréeSud:Cellule
+- celluleEntréeOuest:Cellule
+- celluleEntréeEst:Cellule
 --
-</panel_attributes>
++ changerSalle() : void
++ ajouterCellule() : void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>180</x>
-      <y>909</y>
-      <w>162</w>
-      <h>117</h>
+      <x>126</x>
+      <y>756</y>
+      <w>126</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>NonTraversable
 --
@@ -344,10 +334,10 @@ Cellule
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>423</x>
-      <y>909</y>
-      <w>153</w>
-      <h>117</h>
+      <x>315</x>
+      <y>756</y>
+      <w>119</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>Traversable
 --
@@ -359,10 +349,10 @@ Cellule
   <element>
     <id>UMLInterface</id>
     <coordinates>
-      <x>603</x>
-      <y>819</y>
-      <w>225</w>
-      <h>126</h>
+      <x>476</x>
+      <y>623</y>
+      <w>175</w>
+      <h>98</h>
     </coordinates>
     <panel_attributes>Interface
 --
@@ -375,33 +365,33 @@ Cellule
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>612</x>
-      <y>693</y>
-      <w>207</w>
-      <h>153</h>
+      <x>511</x>
+      <y>588</y>
+      <w>133</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;implements&gt;&gt;</panel_attributes>
-    <additional_attributes>120.0;150.0;120.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>80.0;60.0;80.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>261</x>
-      <y>756</y>
-      <w>252</w>
-      <h>171</h>
+      <x>189</x>
+      <y>637</y>
+      <w>196</w>
+      <h>133</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>260.0;10.0;260.0;80.0;10.0;80.0;10.0;170.0</additional_attributes>
+    <additional_attributes>260.0;10.0;260.0;100.0;10.0;100.0;10.0;170.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>486</x>
-      <y>756</y>
-      <w>27</w>
-      <h>171</h>
+      <x>364</x>
+      <y>637</y>
+      <w>21</w>
+      <h>133</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;80.0;10.0;170.0</additional_attributes>
@@ -409,12 +399,12 @@ Cellule
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>414</x>
-      <y>1098</y>
-      <w>144</w>
-      <h>117</h>
+      <x>504</x>
+      <y>728</y>
+      <w>112</w>
+      <h>70</h>
     </coordinates>
-    <panel_attributes>CelluleDégats
+    <panel_attributes>Empoisonnée
 --
 - nbDégats : int
 --
@@ -424,89 +414,99 @@ Cellule
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>477</x>
-      <y>1017</y>
-      <w>27</w>
-      <h>99</h>
+      <x>427</x>
+      <y>763</y>
+      <w>91</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+    <additional_attributes>10.0;70.0;80.0;70.0;80.0;10.0;110.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1440</x>
-      <y>207</y>
-      <w>135</w>
-      <h>99</h>
+      <x>1106</x>
+      <y>210</y>
+      <w>105</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>&lt;&lt;abstract&gt;&gt;
 Personnage
 --
 - idPers : string
 - nom : string
+- bourse :Inventaire
 --</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1467</x>
-      <y>414</y>
-      <w>144</w>
-      <h>90</h>
+      <x>1127</x>
+      <y>371</y>
+      <w>112</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>Personnage Non Joueur
 --
 - quete : Quête
-- accompli : bool</panel_attributes>
+- accompli : bool
+- dialogue : String[]
+--
+parler()</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1629</x>
-      <y>414</y>
-      <w>144</w>
-      <h>90</h>
+      <x>1246</x>
+      <y>371</y>
+      <w>119</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>ennemi
 --
 - pointsVie : int
 - degats : int
-- nombreXp : int
+- expérienceRapporte : int
 - butin : Objet</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1197</x>
-      <y>333</y>
-      <w>261</w>
-      <h>180</h>
+      <x>917</x>
+      <y>308</y>
+      <w>203</w>
+      <h>196</h>
     </coordinates>
     <panel_attributes>Joueur
 --
 - pointsVie : int
 - avancement : int
 - niveau : int
-- quetes:array de quetes 
-- bourse :Inventaire
-- objetsEquipés: array d'Equipement
--
-- changerObjet():
--recuperer()
-- utliserObjetDeQuete()</panel_attributes>
+- quetes : Quete[]
+- objetsEquipés: Equipement[]
+- position : Cellule
+--
++ utliserObjet(Objet) : void
++ afficherInventaire() : void
++ recupererObjet(Objet) : void
++ verifierInventaire : bool
++ attaquer() : void
++ tirerFleche() : void
+
+
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1512</x>
-      <y>297</y>
-      <w>27</w>
-      <h>135</h>
+      <x>1162</x>
+      <y>280</y>
+      <w>21</w>
+      <h>105</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
@@ -514,21 +514,21 @@ Personnage
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1566</x>
-      <y>297</y>
-      <w>126</w>
-      <h>135</h>
+      <x>1204</x>
+      <y>280</y>
+      <w>91</w>
+      <h>105</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;120.0;10.0;120.0;130.0</additional_attributes>
+    <additional_attributes>10.0;10.0;110.0;10.0;110.0;130.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1404</x>
-      <y>297</y>
-      <w>54</w>
-      <h>54</h>
+      <x>1078</x>
+      <y>280</y>
+      <w>42</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>40.0;10.0;10.0;10.0;10.0;40.0</additional_attributes>
@@ -536,29 +536,28 @@ Personnage
   <element>
     <id>UMLInterface</id>
     <coordinates>
-      <x>1800</x>
-      <y>333</y>
-      <w>189</w>
-      <h>162</h>
+      <x>924</x>
+      <y>147</y>
+      <w>119</w>
+      <h>119</h>
     </coordinates>
-    <panel_attributes>Actions principales: personnage 
+    <panel_attributes>Interaction: personnage 
 --
-attaquer()
-recuperer()
-utliserObjet()
-seDeplacer()
-mourrir()
++ seFaireAttaquer() : void
++ seDeplacer() : void
++ mourrir(): void
 interagir()
+
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2124</x>
-      <y>180</y>
-      <w>189</w>
-      <h>891</h>
+      <x>1372</x>
+      <y>119</y>
+      <w>147</w>
+      <h>693</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Avancement perso&gt;&gt;
 --
@@ -627,73 +626,50 @@ _niveau 15 :_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1548</x>
-      <y>702</y>
-      <w>207</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>Dialogue
--
-- texte : string
--perso : Personnage Non Joueur</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1296</x>
-      <y>702</y>
-      <w>189</w>
-      <h>72</h>
+      <x>644</x>
+      <y>497</y>
+      <w>161</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>Inventaire
 --
 - nombreMaxObjets : int
-- contenu : array d'objets </panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1782</x>
-      <y>621</y>
-      <w>144</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>ennemi
+- contenu : objets[]
 --
-- pointsVie:int
-- nombreXp : int
-- dégats : int</panel_attributes>
++ deplacerObjet(Inventaire) : void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>675</x>
-      <y>990</y>
-      <w>198</w>
-      <h>153</h>
+      <x>1148</x>
+      <y>539</y>
+      <w>154</w>
+      <h>147</h>
     </coordinates>
     <panel_attributes>Quête
 --
 - libelle : string
 - description: string
 - étatQuete: EtatQuete
-- pnj : personnageNonJoueur
 - recompense : Objet
 - objetARecuperer : Objet[]
 - nombreExemplaire : int
-- expRapporte: int </panel_attributes>
+- expérienceRapporte: int 
+--
++ setEtatQuete(EtatQuete): void
++ afficherRecompence(): void
++ prendreRecompence(): void
++ recupererExperience : void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1089</x>
-      <y>990</y>
-      <w>144</w>
-      <h>126</h>
+      <x>994</x>
+      <y>588</y>
+      <w>112</w>
+      <h>98</h>
     </coordinates>
     <panel_attributes>&lt;&lt;enumeration&gt;&gt;
 EtatQuete
@@ -704,5 +680,53 @@ EtatQuete
 + ENCOURS
 </panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1057</x>
+      <y>154</y>
+      <w>21</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..</panel_attributes>
+    <additional_attributes>10.0;220.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>987</x>
+      <y>154</y>
+      <w>350</w>
+      <h>231</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..</panel_attributes>
+    <additional_attributes>480.0;310.0;480.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>504</x>
+      <y>805</y>
+      <w>112</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Jouvence
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>427</x>
+      <y>805</y>
+      <w>91</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0;80.0;60.0;110.0;60.0</additional_attributes>
   </element>
 </diagram>
