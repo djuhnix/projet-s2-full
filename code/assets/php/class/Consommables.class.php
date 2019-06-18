@@ -5,8 +5,8 @@
  * Date: 18/06/2019
  * Time: 16:44
  */
-
-class Consommables
+require_once ('autoload.php');
+class Consommables extends Objet
 {
     private $amelioration ; //int
     private $nombreUtilisation ;
@@ -16,11 +16,13 @@ class Consommables
      * @param $amelioration
      * @param $nombreUtilisation
      */
-    public function __construct($amelioration, $nombreUtilisation)
+    public function __construct(string $nom ,string $description,int $amelioration,int $nombreUtilisation)
     {
+        parent::__construct($nom,$description);
         $this->amelioration = $amelioration;
         $this->nombreUtilisation = $nombreUtilisation;
     }
+
 
     /**
      * @return int
