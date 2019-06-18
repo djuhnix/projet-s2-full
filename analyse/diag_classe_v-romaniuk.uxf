@@ -731,4 +731,17 @@ EtatQuete
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;80.0;10.0;80.0;60.0;110.0;60.0</additional_attributes>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>714</x>
+      <y>707</y>
+      <w>70</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Tile
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
