@@ -14,7 +14,7 @@ $(document).ready(function(){
             var uneVar = "truc";
             console.log("ICI");
             $.post(
-                "test.php",
+                "../php/test.php",
                 { prems: uneVar },
                 function (data) {
                     $('#main').append(data);
