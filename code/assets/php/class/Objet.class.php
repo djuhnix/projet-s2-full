@@ -5,7 +5,7 @@
  * Date: 18/06/2019
  * Time: 16:33
  */
-
+require_once ('autoload.php');
 class Objet
 {
     private $nom ; //string
