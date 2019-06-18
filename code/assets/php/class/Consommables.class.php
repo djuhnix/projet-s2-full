@@ -23,21 +23,24 @@ class Consommables
     }
 
     /**
-     * @return mixed
+     * @return int
      */
-    public function getAmelioration()
+    public function getAmelioration():int
     {
         return $this->amelioration;
     }
 
     /**
-     * @return mixed
+     * @return int
      */
-    public function getNombreUtilisation()
+    public function getNombreUtilisation():int
     {
         return $this->nombreUtilisation;
     }
 
+    /**
+     * @return int
+     */
     public function utiliser():int
     {
         $this->nombreUtilisation=$this->nombreUtilisation-1;
