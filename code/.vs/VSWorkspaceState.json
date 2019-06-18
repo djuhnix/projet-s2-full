@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\php"
+    "\\assets\\css",
+    "\\assets\\js",
+    "\\assets\\php",
+    "\\assets\\php\\class"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\assets\\php\\class\\ProprieteCellule.interface.php",
   "PreviewInSolutionExplorer": false
 }
