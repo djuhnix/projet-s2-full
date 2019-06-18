@@ -4,34 +4,286 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1260</x>
-      <y>324</y>
+      <x>522</x>
+      <y>0</y>
       <w>189</w>
-      <h>54</h>
+      <h>108</h>
     </coordinates>
-    <panel_attributes>carte
-
+    <panel_attributes>&lt;&lt;abstract&gt;&gt;
+Objet
 --
-- id : string
-- width : int
-- height : int
---
+- e
+- desc :string
+- nom : string
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1314</x>
-      <y>1044</y>
-      <w>90</w>
+      <x>279</x>
+      <y>135</y>
+      <w>243</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>Equipement
+-
+
+- libEquip: string  
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>657</x>
+      <y>135</y>
+      <w>162</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>Consommables
+-
+- statsBoost: float
+- nombreUtilisation: int
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>963</x>
+      <y>9</y>
+      <w>162</w>
       <h>117</h>
     </coordinates>
-    <panel_attributes>Position
-
+    <panel_attributes>ObjetSpecial
+-
+- utilite : string
+ 
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>369</x>
+      <y>342</y>
+      <w>99</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>Bouclier
+-
+- protection : int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>261</x>
+      <y>342</y>
+      <w>90</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>Armes
+-
+- dégats : int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>477</x>
+      <y>342</y>
+      <w>99</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>Armures
 --
-- x : double
-- y : double
+- protection : int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>288</x>
+      <y>225</y>
+      <w>27</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>405</x>
+      <y>225</y>
+      <w>27</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>495</x>
+      <y>225</y>
+      <w>27</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>675</x>
+      <y>99</y>
+      <w>27</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>702</x>
+      <y>45</y>
+      <w>279</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;290.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>36</y>
+      <w>180</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>180.0;10.0;10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>819</x>
+      <y>432</y>
+      <w>189</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>chaque effet est géré diff
+ex : ajout de pv
+Les objets de quête ont diff util
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>810</x>
+      <y>234</y>
+      <w>27</w>
+      <h>243</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;250.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>954</x>
+      <y>117</y>
+      <w>27</w>
+      <h>333</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;350.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>252</x>
+      <y>504</y>
+      <w>108</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>Arc
+-
+- portee: float
+
+-</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>297</x>
+      <y>387</y>
+      <w>27</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>972</x>
+      <y>261</y>
+      <w>117</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>ObjetADegats
+-
+- degats : int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>999</x>
+      <y>117</y>
+      <w>27</w>
+      <h>162</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>45</x>
+      <y>189</y>
+      <w>189</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Inventaire
+--
+- nombreMaxObjets : int
+- contenu : array d'objets  </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>45</x>
+      <y>639</y>
+      <w>189</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>Niveau
+--
+- name : string
+- longueur : int
+- largeur : int
+- salles : Salle[longeur][largeur]
 --
 </panel_attributes>
     <additional_attributes/>
@@ -39,8 +291,152 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>378</x>
-      <y>90</y>
+      <x>459</x>
+      <y>639</y>
+      <w>162</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Abstract&gt;&gt;
+Cellule
+--
+- objets : Objet[] ou Inventaire
+- personnage : PersonnageNonJoueur
+- adversaire  : Ennemi = null
+- texture : Image
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>252</x>
+      <y>639</y>
+      <w>189</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>Salle
+--
+- nom : string
+- longeur : int
+- largeur  : int
+- cases : Cellule[longeur][largeur]
+- description : String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>180</x>
+      <y>909</y>
+      <w>162</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>NonTraversable
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>423</x>
+      <y>909</y>
+      <w>153</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Traversable
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLInterface</id>
+    <coordinates>
+      <x>603</x>
+      <y>819</y>
+      <w>225</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>Interface
+--
++ estTraversable() : bool 
++ infligeDegats(int nbDegats) : void 
++ procureSoin() : void 
++ procureObjet(Objet newObj) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>612</x>
+      <y>693</y>
+      <w>207</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;implements&gt;&gt;</panel_attributes>
+    <additional_attributes>120.0;150.0;120.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>261</x>
+      <y>756</y>
+      <w>252</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>260.0;10.0;260.0;80.0;10.0;80.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>486</x>
+      <y>756</y>
+      <w>27</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>414</x>
+      <y>1098</y>
+      <w>144</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>CelluleDégats
+--
+- nbDégats : int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>477</x>
+      <y>1017</y>
+      <w>27</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1440</x>
+      <y>207</y>
       <w>135</w>
       <h>99</h>
     </coordinates>
@@ -55,134 +451,49 @@ Personnage
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>774</x>
-      <y>729</y>
-      <w>189</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;abstract&gt;&gt;
-Objet
---
-- taille : int
-- nom: string
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>711</x>
-      <y>873</y>
-      <w>135</w>
-      <h>99</h>
-    </coordinates>
-    <panel_attributes>Equipement
--
-- idEquipement : string
-- libEquip: string  
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>909</x>
-      <y>891</y>
-      <w>90</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Consommables
--
-- effet:int</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1026</x>
-      <y>855</y>
-      <w>90</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>ObjetdeQuetes
--
-idQuete:string
--
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1062</x>
-      <y>324</y>
-      <w>180</w>
-      <h>126</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Enumération&gt;&gt;
-Environnement 
---
-+ etat</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>333</x>
-      <y>594</y>
-      <w>189</w>
-      <h>72</h>
-    </coordinates>
-    <panel_attributes>Inventaire
---
-- nombreMaxObjets : int
-- contenu : array d'objets  </panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>405</x>
-      <y>297</y>
+      <x>1467</x>
+      <y>414</y>
       <w>144</w>
       <h>90</h>
     </coordinates>
     <panel_attributes>Personnage Non Joueur
 --
 - quete : Quête
--accompli : bool</panel_attributes>
+- accompli : bool</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>567</x>
-      <y>270</y>
+      <x>1629</x>
+      <y>414</y>
       <w>144</w>
       <h>90</h>
     </coordinates>
     <panel_attributes>ennemi
 --
-- pointsVie:int
-- nombresCoups : int</panel_attributes>
+- pointsVie : int
+- degats : int
+- nombreXp : int
+- butin : Objet</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>135</x>
-      <y>216</y>
+      <x>1197</x>
+      <y>333</y>
       <w>261</w>
-      <h>171</h>
+      <h>180</h>
     </coordinates>
     <panel_attributes>Joueur
 --
 - pointsVie : int
 - avancement : int
 - niveau : int
-- quetesEnCours:array:tableau de quetes 
+- quetes:array de quetes 
 - bourse :Inventaire
-- armures: array d'Equipement
+- objetsEquipés: array d'Equipement
 -
 - changerObjet():
 -recuperer()
@@ -190,152 +501,10 @@ Environnement
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>549</x>
-      <y>594</y>
-      <w>90</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>Dialogue
--
-- texte : string</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>711</x>
-      <y>1071</y>
-      <w>99</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes>Bouclier
--
-- protection : int</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>612</x>
-      <y>1071</y>
-      <w>90</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes>Armes
--
-- dégats : int</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>819</x>
-      <y>1071</y>
-      <w>90</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes>Armures
---
-- protection : int</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>666</x>
-      <y>963</y>
-      <w>81</w>
-      <h>126</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>70.0;10.0;10.0;10.0;10.0;120.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>747</x>
-      <y>963</y>
-      <w>27</w>
-      <h>126</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>774</x>
-      <y>963</y>
-      <w>99</w>
-      <h>126</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;90.0;10.0;90.0;120.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>900</x>
-      <y>801</y>
-      <w>27</w>
-      <h>108</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>954</x>
-      <y>801</y>
-      <w>90</w>
-      <h>72</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;80.0;10.0;80.0;60.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>792</x>
-      <y>801</y>
-      <w>27</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLNote</id>
-    <coordinates>
-      <x>1134</x>
-      <y>1089</y>
-      <w>126</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes>x et y sont inférieur 
-à width et height
-bg=blue</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1251</x>
-      <y>1098</y>
-      <w>81</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes>10.0;20.0;70.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>450</x>
-      <y>180</y>
+      <x>1512</x>
+      <y>297</y>
       <w>27</w>
       <h>135</h>
     </coordinates>
@@ -345,19 +514,19 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>504</x>
-      <y>180</y>
+      <x>1566</x>
+      <y>297</y>
       <w>126</w>
-      <h>108</h>
+      <h>135</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;120.0;10.0;120.0;100.0</additional_attributes>
+    <additional_attributes>10.0;10.0;120.0;10.0;120.0;130.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>342</x>
-      <y>180</y>
+      <x>1404</x>
+      <y>297</y>
       <w>54</w>
       <h>54</h>
     </coordinates>
@@ -365,144 +534,175 @@ bg=blue</panel_attributes>
     <additional_attributes>40.0;10.0;10.0;10.0;10.0;40.0</additional_attributes>
   </element>
   <element>
-    <id>UMLNote</id>
+    <id>UMLInterface</id>
     <coordinates>
-      <x>999</x>
-      <y>972</y>
+      <x>1800</x>
+      <y>333</y>
       <w>189</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>chaque effet est géré diff
-ex : ajout de pv
-Les objets de quête ont diff util
-bg=blue</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>936</x>
-      <y>927</y>
-      <w>81</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0;70.0;80.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1107</x>
-      <y>873</y>
-      <w>54</w>
-      <h>117</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;40.0;10.0;40.0;110.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>180</x>
-      <y>594</y>
-      <w>126</w>
-      <h>99</h>
-    </coordinates>
-    <panel_attributes>Quête
---
-- libellé :string
-- description:string
-- état:string</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1611</x>
-      <y>324</y>
-      <w>117</w>
-      <h>72</h>
-    </coordinates>
-    <panel_attributes>Cellule
---</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>63</x>
-      <y>594</y>
-      <w>99</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;enumeration&gt;&gt;
-EtatQuete
--
-etat: NonAtribué
-etat: Réussies
-etat: EnCours
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLInterface</id>
-    <coordinates>
-      <x>36</x>
-      <y>252</y>
-      <w>90</w>
-      <h>126</h>
-    </coordinates>
-    <panel_attributes>Se Déplacer
---
-Gauche()
-Droite()
-Haut()
-Bas()</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLInterface</id>
-    <coordinates>
-      <x>180</x>
-      <y>432</y>
-      <w>198</w>
-      <h>108</h>
+      <h>162</h>
     </coordinates>
     <panel_attributes>Actions principales: personnage 
 --
 attaquer()
 recuperer()
-utliserObjet()</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1458</x>
-      <y>324</y>
-      <w>144</w>
-      <h>117</h>
-    </coordinates>
-    <panel_attributes>Salle
-
---
-- nom : string
-- Longeur : int
-- largeur  : int
-- lieu : carte
---
+utliserObjet()
+seDeplacer()
+mourrir()
+interagir()
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1665</x>
-      <y>504</y>
-      <w>90</w>
-      <h>27</h>
+      <x>2124</x>
+      <y>180</y>
+      <w>189</w>
+      <h>891</h>
     </coordinates>
-    <panel_attributes>SimpleClass</panel_attributes>
+    <panel_attributes>&lt;&lt;Avancement perso&gt;&gt;
+--
+_NIVEAU 1 :_
+	points de vie : 3
+	bourse : 10
+	exp : 30
+_niveau 2 :_
+	points de vie : 3
+	bourse : 11
+	exp : 45
+_niveau 3 :_
+	points de vie : 3
+	bourse : 12
+	exp : 65
+_niveau 4 :_
+	points de vie : 3
+	bourse : 13
+	exp : 80
+_niveau 5 :_
+	points de vie : 4
+	bourse : 13
+	exp : 100
+_niveau 6 :_
+	points de vie : 4
+	bourse : 14
+	exp : 120
+_niveau 7 :_
+	points de vie : 4
+	bourse : 15
+	exp : 120
+_niveau 8 :_
+	points de vie : 4
+	bourse : 16
+	exp : 130
+_niveau 9 :_
+	points de vie : 4
+	bourse : 17
+	exp : 145
+_niveau 10 :_
+	points de vie : 5
+	bourse : 18
+	exp : 170
+_niveau 11 :_
+	points de vie : 5
+	bourse : 18
+	exp : 200
+_niveau 12 :_
+	points de vie : 5
+	bourse : 19
+	exp : 240
+_niveau 13 :_
+	points de vie : 5
+	bourse : 20
+	exp : 280
+_niveau 14 :_
+	points de vie : 5
+	bourse : 21
+	exp : 320
+_niveau 15 :_
+	points de vie : 6
+	bourse : 21
+	exp : 400</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1548</x>
+      <y>702</y>
+      <w>207</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>Dialogue
+-
+- texte : string
+-perso : Personnage Non Joueur</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1296</x>
+      <y>702</y>
+      <w>189</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Inventaire
+--
+- nombreMaxObjets : int
+- contenu : array d'objets </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1782</x>
+      <y>621</y>
+      <w>144</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>ennemi
+--
+- pointsVie:int
+- nombreXp : int
+- dégats : int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>675</x>
+      <y>990</y>
+      <w>198</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>Quête
+--
+- libelle : string
+- description: string
+- étatQuete: EtatQuete
+- pnj : personnageNonJoueur
+- recompense : Objet
+- objetARecuperer : Objet[]
+- nombreExemplaire : int
+- expRapporte: int </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1089</x>
+      <y>990</y>
+      <w>144</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enumeration&gt;&gt;
+EtatQuete
+-
+
++ NONATTRIBUEES
++ REUSSIES
++ ENCOURS
+</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

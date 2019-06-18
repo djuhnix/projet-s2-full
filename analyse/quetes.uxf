@@ -5,7 +5,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>405</x>
-      <y>414</y>
+      <y>324</y>
       <w>198</w>
       <h>153</h>
     </coordinates>
@@ -24,8 +24,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>864</x>
-      <y>351</y>
+      <x>819</x>
+      <y>324</y>
       <w>144</w>
       <h>126</h>
     </coordinates>
