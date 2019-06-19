@@ -22,6 +22,9 @@ class Joueur extends Personnage
         $this->objetsEquipes = array();
         $this->position = null;
     }
-
+    public function utiliserObjet(Objet $object) : void
+    {
+        
+    }
     
 }
