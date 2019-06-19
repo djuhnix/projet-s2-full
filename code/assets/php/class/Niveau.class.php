@@ -55,9 +55,4 @@ class Niveau {
     {
         array_push($this -> salle,$salle);
     }
-
-
-
-
-
 }
