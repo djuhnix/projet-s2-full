@@ -2,10 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26dca7b5-1eb3-4b69-b312-c77888b2dd82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/.idea/code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/assets/php/class/Cellule.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/assets/php/class/EffetCellule.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/assets/php/class/NonTraversable.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/assets/php/class/ObjetADegats.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/assets/php/class/Traversable.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/assets/spritesheet/map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/Diagramme de classes.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/Tableau des classes.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/Tableau des classes.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/diagramme de classe2_modifiable.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/methodes.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/assets/php/class/Consommables.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/php/class/Consommables.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/assets/php/class/Object.class.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/assets/php/class/Objet.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/php/class/Objet.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse/Carte.uxf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse/Personnages.uxf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse/Quetes.uxf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/code/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/.vs/code/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/code/.vs/code/v15/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/code/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/assets/php/class/Niveau.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/php/class/Niveau.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/assets/php/class/ProprieteCellule.interface.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/php/class/ProprieteCellule.interface.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/assets/php/class/Consommables.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -27,13 +50,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/assets/php/class/ObjetSpecial.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="510">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/assets/php/class/ObjetADegats.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/assets/php/class/Objet.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -55,12 +87,13 @@
         <option value="$PROJECT_DIR$/code/assets/php/class/Consommables.class.php" />
         <option value="$PROJECT_DIR$/code/assets/php/class/ObjetSpecial.class.php" />
         <option value="$PROJECT_DIR$/code/assets/php/class/Objet.class.php" />
+        <option value="$PROJECT_DIR$/code/assets/php/class/ObjetADegats.class.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="544" />
-    <option name="width" value="1383" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -136,16 +169,18 @@
       <updated>1560866601580</updated>
       <workItem from="1560866606788" duration="546000" />
       <workItem from="1560868185397" duration="4551000" />
+      <workItem from="1560929992829" duration="639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5097000" />
+    <option name="totallyTimeSpent" value="5736000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="544" y="0" width="1383" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25699168" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13785557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -170,34 +205,12 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/class/Personnage.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/assets/php/class/Object.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/class/Personnage.class.php" />
+    <entry file="file://$PROJECT_DIR$/code/assets/php/class/Object.class.php" />
     <entry file="file://$PROJECT_DIR$/code/assets/php/class/Consommables.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/assets/php/class/ObjetSpecial.class.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -205,6 +218,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/assets/php/class/ObjetSpecial.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/assets/php/class/ObjetADegats.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
