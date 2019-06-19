@@ -1,9 +1,10 @@
 # folder
-**/.idea/
-code/.idea
-code/.vcs
+
+/.idea/
+/code/.vs/
 
 # file
 *.cfg
 *.tmp
 ^[~$]*
+
