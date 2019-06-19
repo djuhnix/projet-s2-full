@@ -2,46 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26dca7b5-1eb3-4b69-b312-c77888b2dd82" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/projet-s2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projet-s2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/.idea/code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse/ANALYSE.docx" beforeDir="false" afterPath="$PROJECT_DIR$/analyse/ANALYSE.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse/Carte.uxf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse/Objet.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/analyse/Objet.uxf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse/Personnages.uxf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse/Quetes.uxf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse/carte.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/analyse/carte.uxf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse/diag_classe_v-romaniuk.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/analyse/diag_classe_v-romaniuk.uxf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse/diagramme_classe.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/analyse/diagramme_classe.uxf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse/personnages.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/analyse/personnages.uxf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse/quetes.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/analyse/quetes.uxf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/.vs/ProjectSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/code/.vs/ProjectSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/code/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/.vs/code/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/code/.vs/code/v15/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/.vs/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/code/.vs/config/applicationhost.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/code/.vs/slnx.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/assets/js/rpg.js" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/js/rpg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/assets/map/map.json" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/map/map.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/assets/php/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/php/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/assets/php/class/Consommables.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/php/class/Consommables.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/assets/php/class/Object.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/php/class/Object.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/assets/php/class/Objet.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/php/class/Objet.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/assets/php/class/Personnage.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/php/class/Personnage.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/assets/php/class/ProprieteCellule.interface.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/php/class/ProprieteCellule.interface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/assets/php/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/php/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/assets/spritesheet/knight.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/spritesheet/knight.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/code/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/Projet s2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/info/Projet s2.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/RPG.md" beforeDir="false" afterPath="$PROJECT_DIR$/info/RPG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/perso seb" beforeDir="false" afterPath="$PROJECT_DIR$/info/perso seb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf/Tableau_des_classes.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdf/Tableau_des_classes.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf/diagramme de classe2_modifiable.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdf/diagramme de classe2_modifiable.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf/methodes.docx" beforeDir="false" afterPath="$PROJECT_DIR$/pdf/methodes.docx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,13 +14,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/assets/php/class/ProprieteCellule.interface.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+            <state relative-caret-position="105">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -74,18 +44,17 @@
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-3" />
     <option name="y" value="24" />
-    <option name="width" value="1918" />
-    <option name="height" value="1059" />
+    <option name="width" value="960" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,11 +92,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php-music" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RunDashboard">
@@ -154,17 +125,18 @@
       <updated>1560866601580</updated>
       <workItem from="1560866606788" duration="546000" />
       <workItem from="1560871767283" duration="1590000" />
+      <workItem from="1560928292912" duration="298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2136000" />
+    <option name="totallyTimeSpent" value="2434000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="24" width="1918" height="1059" extended-state="0" />
+    <frame x="-3" y="24" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25561497" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18106061" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -176,9 +148,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.328594" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.328594" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3290461" />
+      <window_info anchor="right" id="Google Cloud Storage" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -192,8 +165,8 @@
     <entry file="file://$PROJECT_DIR$/class/Personnage.class.php" />
     <entry file="file://$PROJECT_DIR$/code/assets/php/class/ProprieteCellule.interface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
