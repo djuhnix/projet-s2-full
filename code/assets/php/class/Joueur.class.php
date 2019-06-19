@@ -23,7 +23,7 @@ class Joueur extends Personnage
         $this->objetsEquipes = array();
         $this->position = null;
     }
-    
+
     public function utiliserObjet(Consommables $item) : void {
         $this->pointVie = $this->niveau[0];
     }
@@ -32,7 +32,7 @@ class Joueur extends Personnage
         echo $this->bourse->ajouterObjet($item);
     }
 
-    
+
     public function __toString() : String {
         $statistique = "        Nom : {$this->nom}
         Point de vie : {$this->pointVie} / {$this->niveau[0]}
