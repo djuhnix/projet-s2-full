@@ -12,7 +12,7 @@ $(document).ready(function(){
         if (event.which == 37){
             console.log("ICI");
             $.post(
-                "../php/test.php",
+                "assets/php/test.php",
                 { prems: 0 },
                 function (data) {
                     $('#main').append(data);
@@ -24,7 +24,7 @@ $(document).ready(function(){
         if ( event.which == 38 ){
             console.log("ICI");
             $.post(
-                "../php/test.php",
+                "assets/php/test.php",
                 { prems: 1 },
                 function (data) {
                     $('#main').append(data);
@@ -35,7 +35,7 @@ $(document).ready(function(){
         if ( event.which == 39 ){
             console.log("ICI");
             $.post(
-                "../php/test.php",
+                "assets/php/test.php",
                 { prems: 2 },
                 function (data) {
                     $('#main').append(data);
@@ -47,7 +47,7 @@ $(document).ready(function(){
         if ( event.which == 40) {
             console.log("ICI");
             $.post(
-                "../php/test.php",
+                "assets/php/test.php",
                 { prems: 3 },
                 function (data) {
                     $("#main").append(data);
