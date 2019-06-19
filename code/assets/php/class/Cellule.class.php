@@ -1,21 +1,41 @@
 <?php
-require_once "../autoload.php"
+require_once "../autoload.php";
 
-abstract class Cellule
+abstract class Cellule implements ProprieteCellule
 {
        private $objets;
        private $personnage;
-       private $adversaire;
        private $texture;
 
-       public function __construct()
-       {
-           echo "Construction d'une cellule";
-       }
+    /**
+     * Cellule constructor.
+     *
+     * @param $personnage
+     * @param $texture
+     */
+    public function __construct($texture)
+    {
+        $this->texture = $texture;
+    }
 
-       public function estTraversable() : bool
-       {
-            return True;
-       }
+
+    /**
+     * Retourne le tableau d'objet susceptible d'etre sur la cellule
+     */
+    public function getObjets() : Inventaire
+    {
+        return $this -> objets;
+    }
+
+    public function ajouterPersonnage(Personnage $perso) : void
+    {
+        $this -> personnage = $perso;
+    }
+
+    public function ajouterObjet(Objet $obj) : void
+    {
+        $this -> objets -> ajouterObjet($obj);
+    }
+
 
 }

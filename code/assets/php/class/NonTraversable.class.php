@@ -3,15 +3,25 @@
 
 class NonTraversable extends Cellule
 {
-    public function __construct(Image $texture, Inventaire $objets = NULL,
-                                PersonnageNonJoueur $personnage = NULL,
-                                Ennemi $adversaire = NULL )
+    public function __construct($texture)
     {
-        parent::__construct();
-        $this->texture = $texture;
-        $this->objets = $objets;
-        $this->personnage = $personnage;
-        $this->adversaire = $adversaire;
+        parent::__construct($texture);
 
     }
+
+    public function estTraversable(): bool
+    {
+        return false;
+    }
+
+    /**
+     * Donne le nombre de points de vie à ajouter ou à retirer
+     * @return int
+     */
+    public function getEffet(): int
+    {
+        return 0;
+    }
+
+
 }

@@ -1,7 +1,7 @@
 <?php
 
 
-class EffetCellule extends Traversable
+class AEffet extends Traversable
 {
 
     private $nbDegats;
@@ -13,19 +13,9 @@ class EffetCellule extends Traversable
         parent::__construct($texture,$objets,$personnage,$adversaire);
         $this -> nbDegats = $nbDegats;
     }
-    public function infligeDegats() : int
+
+    public function getEffet(): int
     {
         return $this -> nbDegats;
     }
-
-    public function procureSoin() : int
-    {
-        return +1;
-    }
-    public function procureObjet(Objet $newObj) :
-    {
-        return $newObj;
-    }
-
-
 }
