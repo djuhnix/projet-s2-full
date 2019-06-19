@@ -12,10 +12,10 @@ abstract class Cellule
        {
            echo "Construction d'une cellule";
        }
-       /*
+
        public function estTraversable() : bool
        {
-            #à compléter
+            return True;
        }
-       */
+
 }
