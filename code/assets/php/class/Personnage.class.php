@@ -1,9 +1,11 @@
 <?php
 
+require_once "Inventaire.class.php";
+
 abstract class Personnage
 {
-    private $nom ; //string
-    private $bourse ;//Inventaire
+    protected $nom ; //string
+    protected $bourse ;//Inventaire
 
     /**
      * Constructeur de la classe Personnage.
