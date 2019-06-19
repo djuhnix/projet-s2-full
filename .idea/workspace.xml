@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26dca7b5-1eb3-4b69-b312-c77888b2dd82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/.idea/code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/assets/php/class/Cellule.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/assets/php/class/EffetCellule.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/assets/php/class/NonTraversable.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/assets/php/class/ObjetADegats.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/assets/php/class/Traversable.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/assets/spritesheet/map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/Diagramme de classes.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/Tableau des classes.odt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/Tableau des classes.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/diagramme de classe2_modifiable.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/methodes.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse/Carte.uxf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse/Personnages.uxf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse/Quetes.uxf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/code/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/.vs/code/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/code/.vs/code/v15/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/code/.vs/slnx.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/assets/php/class/Niveau.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/php/class/Niveau.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/assets/php/class/ProprieteCellule.interface.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/php/class/ProprieteCellule.interface.php" afterDir="false" />
-    </list>
+    <list default="true" id="26dca7b5-1eb3-4b69-b312-c77888b2dd82" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/code/assets/php/class/ObjetSpecial.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -59,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/assets/php/class/ObjetADegats.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="442">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -101,7 +73,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,6 +110,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,16 +142,18 @@
       <workItem from="1560866606788" duration="546000" />
       <workItem from="1560868185397" duration="4551000" />
       <workItem from="1560929992829" duration="1039000" />
+      <workItem from="1560931102555" duration="1268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6136000" />
+    <option name="totallyTimeSpent" value="7404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13785557" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14113785" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -213,6 +187,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/code/assets/php/class/ObjetSpecial.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/code/assets/php/class/Objet.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -220,17 +201,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/assets/php/class/ObjetSpecial.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/assets/php/class/ObjetADegats.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="442">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
         </state>
       </provider>
     </entry>
