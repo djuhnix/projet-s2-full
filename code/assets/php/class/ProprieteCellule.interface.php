@@ -2,7 +2,15 @@
 
 interface ProprieteCellule {
     public function estTraversable() : bool;
-    public function infligerDegats() : int;
-    public function procureSoin() : int;
-    public function procureObjet(Objet $obj) : void;
+
+    /**
+     * Donne le nombre de points de vie à ajouter ou à retirer
+     * @return int
+     */
+    public function getEffet() : int;
+
+    /**
+     * Retourne le tableau dr'objet susceptible d'etre sur la cellule
+     */
+    public function getObjets() : Inventaire ;
 }
