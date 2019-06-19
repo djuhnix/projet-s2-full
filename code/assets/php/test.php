@@ -1,7 +1,17 @@
 <?php
 $rep = $_POST["prems"];
+$dir = "Direction :";
+if ($rep == 0)
+    $dir .= "Gauche";
+elseif ($rep == 1)
+    $dir .= "Haut";
+elseif ($rep == 2)
+    $dir .= "Droite";
+elseif ($rep == 3)
+    $dir .= "Bas";
+
 $var = <<<HTML
-	<p> $rep </p>
+	<div> $dir </div>
 HTML;
-//return $var;
+
 echo $var;
