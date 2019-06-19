@@ -13,10 +13,10 @@ class Salle
     private $largeur; //int
     private $description; //string
     private $cases; //array
-    private $entréerNord; //cellule
-    private $entréerSud; //cellule
-    private $entréerOuest; //cellule
-    private $entréerEst; //cellule
+    private $entreerNord; //cellule
+    private $entreerSud; //cellule
+    private $entreerOuest; //cellule
+    private $entreerEst; //cellule
 
     /**
      * Salle constructor.

@@ -2,7 +2,7 @@
 
 require_once "../autoload.php";
 
-class Ennemi extends Personnage
+class Ennemi extends Personnage implements Interaction
 {
     private $pointsVie;
     private $degats;

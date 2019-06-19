@@ -1,7 +1,5 @@
 <?php
 
-require_once "Objet.class.php";
-
 class Inventaire
 {
     private $nombreMaxObjets ; //int

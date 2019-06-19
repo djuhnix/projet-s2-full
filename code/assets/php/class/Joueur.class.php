@@ -1,9 +1,10 @@
 <?php
 
+require_once "Interaction.interface.php";
 require_once "Personnage.class.php";
 require_once "NiveauJoueur.class.php";
 
-class Joueur extends Personnage
+class Joueur extends Personnage implements Interaction
 {
     private  $pointVie ; //Int
     private  $xp ; //int
@@ -41,4 +42,19 @@ class Joueur extends Personnage
         return $statistique;
     }
     
+    public function seFaireAttaquer() : void {
+        $this->pointVie = $this->pointVie - 1;
+    }
+    
+    public function seDeplacer(int $x, int $y) : void {
+        // ne rien faire    
+        ;
+    }
+    
+    public function mourir() : Void { echo "Game Over" ;}
+    
+    public function interagir(Object $cible) : void {
+        // acces à la liste des commande disponible.
+        $cible->interagir();
+    }
 }
