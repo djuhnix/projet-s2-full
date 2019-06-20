@@ -8,3 +8,5 @@
 *.tmp
 ^[~$]*
 /.idea/
+/.idea/projet-s2.iml
+/.idea/workspace.xml
