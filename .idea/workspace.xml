@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26dca7b5-1eb3-4b69-b312-c77888b2dd82" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/assets/js/rpg.js" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/js/rpg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/code/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="26dca7b5-1eb3-4b69-b312-c77888b2dd82" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,11 +22,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
               <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/assets/php/deplacements.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/assets/js/deplacements.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/assets/js/lancement.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/assets/php/lancement.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -50,8 +69,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -70,9 +89,11 @@
         <option value="$PROJECT_DIR$/code/assets/php/class/Salle.class.php" />
         <option value="$PROJECT_DIR$/code/assets/php/class/Niveau.class.php" />
         <option value="$PROJECT_DIR$/code/lancement.js" />
-        <option value="$PROJECT_DIR$/code/assets/js/lancement.js" />
         <option value="$PROJECT_DIR$/code/assets/js/rpg.js" />
         <option value="$PROJECT_DIR$/code/index.html" />
+        <option value="$PROJECT_DIR$/code/assets/js/deplacements.js" />
+        <option value="$PROJECT_DIR$/code/assets/js/lancement.js" />
+        <option value="$PROJECT_DIR$/code/assets/php/lancement.php" />
       </list>
     </option>
   </component>
@@ -159,16 +180,15 @@
       <workItem from="1560949093014" duration="69000" />
       <workItem from="1560949209842" duration="1324000" />
       <workItem from="1560950656803" duration="44000" />
-      <workItem from="1560950740182" duration="265000" />
+      <workItem from="1560950740182" duration="1046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11101000" />
+    <option name="totallyTimeSpent" value="11882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21991247" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -243,7 +263,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/lancement.js" />
-    <entry file="file://$PROJECT_DIR$/code/assets/js/lancement.js" />
     <entry file="file://$PROJECT_DIR$/code/assets/js/rpg.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -265,6 +284,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/assets/php/deplacements.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/assets/js/deplacements.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/assets/js/lancement.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/assets/php/lancement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
