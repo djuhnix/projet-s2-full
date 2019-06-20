@@ -1,6 +1,7 @@
 # folder
 
-/.idea/
+/.idea/*
+/.idea/**
 /code/.vs/
 
 # file
