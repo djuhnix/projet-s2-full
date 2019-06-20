@@ -8,6 +8,14 @@ class PersonnageNonJoueur extends Personnage
     private $accompli;
     private $dialogue;
 
+
+    /**
+     * PersonnageNonJoueur constructor.
+     * @param string $nom
+     * @param Quete $quete
+     * @param bool $accompli
+     * @param string $dialogue
+     */
     public function __construct(string $nom, Quete $quete,
                                 bool $accompli = False, string $dialogue)
     {
@@ -16,6 +24,11 @@ class PersonnageNonJoueur extends Personnage
         $this -> accompli = $accompli;
         $tjis -> dialogue = $dialogue;
     }
+
+    /**
+     * Retourne le dialogue du PNJ correspondant
+     * @return string
+     */
     public function parler() : string
     {
         return $this -> dialogue;
