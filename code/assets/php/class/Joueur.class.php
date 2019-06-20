@@ -33,15 +33,6 @@ class Joueur extends Personnage implements Interaction
         echo $this->bourse->ajouterObjet($item);
     }
 
-
-    public function __toString() : String {
-        $statistique = "        Nom : {$this->nom}
-        Point de vie : {$this->pointVie} / {$this->niveau[0]}
-        XP : {$this->xp} / {$this->niveau[2]}
-        Inventaire : {$this->bourse}";
-        return $statistique;
-    }
-    
     public function seFaireAttaquer() : void {
         $this->pointVie = $this->pointVie - 1;
     }

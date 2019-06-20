@@ -1,5 +1,5 @@
 <?php
-require_once "../autoload.php";
+require_once "../../autoload.php";
 
 
 class PersonnageNonJoueur extends Personnage
@@ -22,7 +22,7 @@ class PersonnageNonJoueur extends Personnage
         parent::__construct($nom);
         $this -> quete = $quete;
         $this -> accompli = $accompli;
-        $tjis -> dialogue = $dialogue;
+        $this -> dialogue = $dialogue;
     }
 
     /**
@@ -31,6 +31,6 @@ class PersonnageNonJoueur extends Personnage
      */
     public function parler() : string
     {
-        return $this -> dialogue;
+        return $this -> dialogue."\n";
     }
 }
