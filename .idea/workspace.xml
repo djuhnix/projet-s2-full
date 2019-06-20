@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="26dca7b5-1eb3-4b69-b312-c77888b2dd82" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="26dca7b5-1eb3-4b69-b312-c77888b2dd82" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/assets/js/deplacements.js" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/js/deplacements.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/assets/js/rpg.js" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/js/rpg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/assets/php/deplacements.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/php/deplacements.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/assets/php/lancement.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/php/lancement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/assets/php/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/php/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/code/game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/index.html" beforeDir="false" />
+    </list>
+>>>>>>> 483a937f7e94defad73e8ed4109c2edae5608801
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/assets/js/rpg.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="331">
+              <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -22,11 +35,16 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/index.html">
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/index.php">
+>>>>>>> 483a937f7e94defad73e8ed4109c2edae5608801
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="68">
+              <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -58,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/game.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="7" lean-forward="true" selection-end-line="25" selection-end-column="7" />
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -91,13 +109,18 @@
         <option value="$PROJECT_DIR$/code/lancement.js" />
         <option value="$PROJECT_DIR$/code/assets/js/rpg.js" />
         <option value="$PROJECT_DIR$/code/index.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/code/assets/js/deplacements.js" />
         <option value="$PROJECT_DIR$/code/assets/js/lancement.js" />
         <option value="$PROJECT_DIR$/code/assets/php/lancement.php" />
+=======
+        <option value="$PROJECT_DIR$/code/index.php" />
+        <option value="$PROJECT_DIR$/code/game.html" />
+>>>>>>> 483a937f7e94defad73e8ed4109c2edae5608801
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -150,6 +173,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -180,17 +204,29 @@
       <workItem from="1560949093014" duration="69000" />
       <workItem from="1560949209842" duration="1324000" />
       <workItem from="1560950656803" duration="44000" />
+<<<<<<< HEAD
       <workItem from="1560950740182" duration="1046000" />
+=======
+      <workItem from="1560950740182" duration="265000" />
+      <workItem from="1560952359020" duration="2026000" />
+>>>>>>> 483a937f7e94defad73e8ed4109c2edae5608801
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="11882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="13127000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+>>>>>>> 483a937f7e94defad73e8ed4109c2edae5608801
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21991247" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10927505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -263,10 +299,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/lancement.js" />
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/code/assets/js/lancement.js" />
+    <entry file="file://$PROJECT_DIR$/code/index.html" />
+>>>>>>> 483a937f7e94defad73e8ed4109c2edae5608801
     <entry file="file://$PROJECT_DIR$/code/assets/js/rpg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="331">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -275,15 +316,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/game.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="7" lean-forward="true" selection-end-line="25" selection-end-column="7" />
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/index.html">
+    <entry file="file://$PROJECT_DIR$/code/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="68">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
         </state>
       </provider>
     </entry>

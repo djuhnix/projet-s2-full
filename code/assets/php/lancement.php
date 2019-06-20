@@ -1,4 +1,4 @@
-git add ;<?php
+<?php
 /**
  * Created by PhpStorm.
  * User: sove0002
