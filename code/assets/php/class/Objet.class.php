@@ -5,7 +5,7 @@
  * Date: 18/06/2019
  * Time: 16:33
  */
-require_once ('autoload.php');
+
 class Objet
 {
     private $nom ; //string
@@ -13,14 +13,14 @@ class Objet
 
     function __construct(string $name, string $description)
     {
-        $this->name=$name;
+        $this->nom=$name;
         $this->description=$description;
     }
 
     /**
      * @return mixed
      */
-    public function getNom()
+    public function getNom() : string
     {
         return $this->nom;
     }
@@ -28,7 +28,7 @@ class Objet
     /**
      * @return string
      */
-    public function getDescription()
+    public function getDescription():string
     {
         return $this->description;
     }

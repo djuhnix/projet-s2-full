@@ -2,13 +2,11 @@
 /**
  *
  */
-enum class etatQuete
+class EtatQuete
 {
-  constant EnCours=1;
-  constant Reussis=2;
-  constant NonAttribue=3;
-
-
-
+    const __default = self::EnCours;
+    const EnCours=1;
+    const Reussis=2;
+    const NonAttribue=3;
 
 }

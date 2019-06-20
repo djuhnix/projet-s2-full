@@ -3,12 +3,12 @@ require_once "Equipement.class.php";
 class Arme extends Equipement
 {
   private $degats;//int
-  public function __construct(string $nomEquip,int $degats)
+  public function __construct(string $nomEquip, string $description, int $degats)
   {
-    parent::__construct($nomEquip);
+    parent::__construct($nomEquip, $description);
     $this->degats=$degats;
   }
-  public function getDegats ():int
+  public function getDegats():int
   {
     return $this->degats;
   }
