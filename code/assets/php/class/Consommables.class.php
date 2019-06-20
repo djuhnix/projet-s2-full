@@ -1,11 +1,11 @@
-<?php
+g<?php
 /**
  * Created by PhpStorm.
  * User: sove0002
  * Date: 18/06/2019
  * Time: 16:44
  */
-require_once ('autoload.php');
+require_once ('../../autoload.php');
 class Consommables extends Objet
 {
     private $amelioration ; //int

@@ -12,14 +12,14 @@ $page -> appendContent(<<<HTML
                 </h4>
         </header>
         <div class="mx-auto p-2" style="width: 800px">
-            <canvas id="main">          
-   
-            </canvas>     
-        </div>  
+            <canvas id="main">
+
+            </canvas>
+        </div>
             <footer class="subtitle text-light text-center">
                 © The Bzit - IUT - INFO - URCA - 2019
             </footer>
-        
+
 HTML
 );
 
