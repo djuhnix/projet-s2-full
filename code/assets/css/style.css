@@ -1,3 +1,24 @@
-canvas {
-    border: 1px solid black;
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap');
+#main {
+    background-color: #2a2d35;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    align-content: center ;
+
+}
+
+
+body{
+    background-color: #2a2d35;
+}
+
+#title {
+    font-family: 'Lobster', cursive;
+}
+
+.subtitle {
+    font-family: 'Saira Semi Condensed', sans-serif;
+
 }
