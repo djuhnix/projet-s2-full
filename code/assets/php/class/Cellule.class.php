@@ -27,10 +27,19 @@ abstract class Cellule implements ProprieteCellule
         return $this -> objets;
     }
 
+    /**
+     * Ajoute la valeur du paramètre $perso à l'attribut personnage de la cellule
+     * @param Personnage $perso
+     */
     public function ajouterPersonnage(Personnage $perso) : void
     {
         $this -> personnage = $perso;
     }
+
+    /**
+     * Ajoute la valeur du paramètre $obj à l'attribut objets de la cellule
+     * @param Objet $obj
+     */
 
     public function ajouterObjet(Objet $obj) : void
     {
