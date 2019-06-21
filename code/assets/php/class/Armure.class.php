@@ -1,11 +1,11 @@
 <?php
 require_once "Equipement.class.php";
-class Armures extends Equipement
+class Armure extends Equipement
 {
   private $protection ;//int
-  public function __construct(string $nomEquip, int $protection)
+  public function __construct(string $nomEquip,string $description, int $protection)
   {
-    parent::__construct($nomEquip);
+    parent::__construct($nomEquip, $description);
     $this->protection=$protection;
   }
   public function getProtection():int

@@ -15,9 +15,9 @@ class ObjetADegats extends ObjetSpecial
      * ObjetADegats constructor.
      * @param $degats
      */
-    public function __construct(string $nom ,string $description , int $degats)
+    public function __construct(string $nom ,string $description , string $utilite , int $degats)
     {
-        parent::__construct( $nom , $description)
+        parent::__construct( $nom , $description, $utilite);
         $this->degats = $degats;
     }
 

@@ -1,3 +1,39 @@
-canvas {
-    border: 1px solid black;
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap');
+#main {
+    background-color: #2a2d35;
+    width: 800px;
+    height: 512px;
+    margin: 0 auto;
+    align-content: center ;
+
+}
+
+
+body{
+    background-color: #2a2d35;
+}
+
+#title {
+    font-family: 'Lobster', cursive;
+}
+
+.subtitle {
+    font-family: 'Saira Semi Condensed', sans-serif;
+
+}
+
+#enter {
+    animation: animButton alternate infinite .6s linear ;
+}
+@keyframes animButton {
+    from{
+        margin-top: 0;
+        box-shadow: 0 4px 4px #bbb;
+    }
+    to{
+        margin-top: -6px;
+        box-shadow: 0 10px 10px #333;
+    }
+
 }

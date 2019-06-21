@@ -5,7 +5,7 @@
  * Date: 18/06/2019
  * Time: 17:28
  */
-require_once ('autoload.php');
+require_once ('../../autoload.php');
 class ObjetSpecial extends Objet
 {
     private $utilite;

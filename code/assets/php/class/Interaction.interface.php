@@ -6,4 +6,5 @@ interface Interaction
     public function seFaireAttaquer();
     public function seDeplacer( int $x, int $y);
     public function mourir();
+
 }

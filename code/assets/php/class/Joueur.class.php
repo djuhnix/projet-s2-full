@@ -64,4 +64,5 @@ class Joueur extends Personnage implements Interaction
         $this->prendreObjet($qReussi->getRecompense());
         $this->xp = $this->xp + $qReussi->getExperienceRapporte();
     }
+
 }

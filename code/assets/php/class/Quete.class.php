@@ -4,7 +4,7 @@
 * public function get (){}
 * public function set (:):void {}
  */
- require_once "Objet.class.php";
+require_once "../../autoload.php";
 class Quete
 {
   private $libelle;//string
@@ -13,9 +13,11 @@ class Quete
   private $recompense; //Array Objet
   private $objetRecuperation;  //Array Objet
   private $nombreExemplaire; //int
-  private $experienceRapporte; //int
-  function __construct(string $libelle , string $description,
-  etatQuete $etatQuete, Objet  $recompense, Objet $objetRecuperation,
+  private $experienceRapporte;//int
+
+
+  public function __construct(string $libelle , string $description,
+  EtatQuete $etatQuete, Objet  $recompense, Objet $objetRecuperation,
   int $nombreExemplaire, int $experienceRapporte)
   {
 
@@ -66,30 +68,24 @@ class Quete
       $this->EtatQuete=$etatQuete;
 
     }
-  }
-  public function __toString():string
-  {
-    $res="Libellé : {$this->$libelle}\n";
-    $res=$res."Description : {$this->$description}\n";
-    $res=$res."EtatQuete : {$this->$etatQuete}\n";
-    $res=$res."Recompense : {$this->$recompense}\n";
-    $res=$res."ObjetRecuperation : {$this->$objetRecuperation}\n";
-    $res=$res."NombreExemplaire : {$this->$nombreExemplaire}\n";
-    $res=$res."ExperienceRapporte : {$this->$experienceRapporte}\n";
-    return $res;
+
   }
   public function afficherRecompense() : void
   {
-    echo $this -> recompense;
+    echo $this -> recompense -> getNom();
   }
   public function prendreRecompense(Joueur $player) : void
   {
-    $player-> recupererObjet($this->recompense);
+    $player->  prendreObjet($this->recompense);
     $this -> recompense = NULL;
   }
+
   public function recupererExperience() : int
   {
-      if ($this->EtatQuete == 2)
-
+      if ($this-> etatQuete::Reussis) {
+          return $this->experienceRapporte;
+      } else
+          return 0;
   }
+
 }

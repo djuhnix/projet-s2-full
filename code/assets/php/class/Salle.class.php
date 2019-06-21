@@ -124,4 +124,5 @@ class Salle
         $caseId = $this->largeur * $x) + $y ; 
         return $this->cases[$caseId];
     }
+
 }
