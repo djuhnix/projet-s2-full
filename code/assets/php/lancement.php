@@ -15,7 +15,6 @@ $player1->prendreObjet($baton);
 
 
 
-
 $rep = <<<HTML
     <div>
         <p> Merci d'avoir jouer ... </p>

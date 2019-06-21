@@ -115,13 +115,13 @@ class Salle
         return $this->entréerEst;
     }
     
-    public function ajouterCellule(Cellule $cellule):None
+    public function ajouterCellule(Cellule $cellule) : void
     {
         array_push($this->cases,$cellule);
     }
     
     public function getCell(int $x, int $y) : Cellule {
-        $caseId = $this->largeur * $x) + $y ; 
+        $caseId = ($this->largeur * $x) + $y ;
         return $this->cases[$caseId];
     }
 
