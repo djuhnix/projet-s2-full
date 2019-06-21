@@ -3,7 +3,7 @@
 #main {
     background-color: #2a2d35;
     width: 800px;
-    height: 600px;
+    height: 512px;
     margin: 0 auto;
     align-content: center ;
 
@@ -20,5 +20,20 @@ body{
 
 .subtitle {
     font-family: 'Saira Semi Condensed', sans-serif;
+
+}
+
+#enter {
+    animation: animButton alternate infinite .6s linear ;
+}
+@keyframes animButton {
+    from{
+        margin-top: 0;
+        box-shadow: 0 4px 4px #bbb;
+    }
+    to{
+        margin-top: -6px;
+        box-shadow: 0 10px 10px #333;
+    }
 
 }
