@@ -5,7 +5,7 @@ $(document).ready(function(){
                 "assets/php/lancement.php",
                 {param: 0},
                 function (data) {
-                    $('h4').text("Début du jeux");
+                    $('h4').text("Début du jeu");
                 },
                 "HTML"
             );
