@@ -20,11 +20,17 @@ class Ennemi extends Personnage implements Interaction
     public function mourir() : void
     {
         if ($this -> pointsVie == 0)
+            
             unlink($this);
     }
     public function seFaireAttaquer() : void
     {
         $this -> pointsVie =- 1;
     }
+    
+    public function seDeplacer( int $x, int $y);
+
+    public function interagir(Object $cible);
+
 
 }

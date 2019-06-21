@@ -14,15 +14,15 @@ class Joueur extends Personnage implements Interaction
     private  $position ; //Cellule
 
 
-    public function __construct ()
+    public function __construct (Salle $map)
     {
-        parent::__construct("Angel");
+        parent::__construct("Angel", $map, 5,95)
         $this->pointVie = 3;
         $this->xp = 1;
         $this->niveau = NiveauJoueur::Niveau1;
         $this->quetes = array();
         $this->objetsEquipes = array();
-        $this->position = null;
+        $this->position = $this->$environement->getCell(5,95);
     }
 
     public function utiliserObjet(Consommables $item) : void {
@@ -37,8 +37,7 @@ class Joueur extends Personnage implements Interaction
     public function __toString() : String {
         $statistique = "        Nom : {$this->nom}
         Point de vie : {$this->pointVie} / {$this->niveau[0]}
-        XP : {$this->xp} / {$this->niveau[2]}
-        Inventaire : {$this->bourse}";
+        XP : {$this->xp} / {$this->niveau[2]}";
         return $statistique;
     }
     
@@ -47,14 +46,22 @@ class Joueur extends Personnage implements Interaction
     }
     
     public function seDeplacer(int $x, int $y) : void {
-        // ne rien faire    
-        ;
+        if($this->$environement->$getCases($x,$y)->estTraversable()){
+            $this->posX = $x;
+            $this->posY = $y;
+            $this->position = $this->$environement->$getCases($x,$y);
+        }
     }
     
     public function mourir() : Void { echo "Game Over" ;}
     
-    public function interagir(Object $cible) : void {
-        // acces à la liste des commande disponible.
-        $cible->interagir();
+    public function parlerPNJ(PersonnageNonJoueur $cible) : String {
+        // acces à la liste des commande disponible. --> Parler au PNJ
+        $cible->parler();
+    }
+    
+    public function recupererRecompence(Quete $qReussi) : void {
+        $this->prendreObjet($qReussi->getRecompense());
+        $this->xp = $this->xp + $qReussi->getExperienceRapporte();
     }
 }

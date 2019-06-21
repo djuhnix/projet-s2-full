@@ -5,7 +5,7 @@ abstract class Cellule implements ProprieteCellule
 {
        private $objets;
        private $personnage;
-       private $texture;
+       private $texture; //int identifiant du tile dans le tileset.
 
     /**
      * Cellule constructor.
@@ -22,9 +22,17 @@ abstract class Cellule implements ProprieteCellule
     /**
      * Retourne le tableau d'objet susceptible d'etre sur la cellule
      */
+    public function getPersonnage() : Personnage
+    {
+        return $this->personnage;
+    }
     public function getObjets() : Inventaire
     {
         return $this -> objets;
+    }
+    public function getTile() : int
+    {
+        return $this -> $texture;
     }
 
     public function ajouterPersonnage(Personnage $perso) : void
