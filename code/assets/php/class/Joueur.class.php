@@ -16,7 +16,7 @@ class Joueur extends Personnage implements Interaction
 
     public function __construct (Salle $map)
     {
-        parent::__construct("Angel", $map, 5,95)
+        parent::__construct("Angel", $map, 5,95);
         $this->pointVie = 3;
         $this->xp = 1;
         $this->niveau = NiveauJoueur::Niveau1;

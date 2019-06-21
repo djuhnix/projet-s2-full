@@ -7,3 +7,4 @@
 - [Simple Map generator HTML & PHP](https://www.dreamincode.net/forums/topic/258614-simple-rpg-map-generator/)
 - [Square tilemaps implementation: Static maps](https://developer.mozilla.org/en-US/docs/Games/Techniques/Tilemaps/Square_tilemaps_implementation%3A_Static_maps)
 - [Tilemaps](https://developer.mozilla.org/en-US/docs/Games/Techniques/Tilemaps)
+- [Map no-scroll - source code](https://github.com/mozdevs/gamedev-js-tiles/blob/gh-pages/square/no-scroll.js)
