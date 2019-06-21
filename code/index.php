@@ -17,7 +17,7 @@ $page -> appendContent(<<<HTML
             </canvas>
         </div>
             <footer class="subtitle text-light text-center">
-                © The Bzit - IUT - INFO - URCA - 2019
+                © The Bzit and DRSM - IUT - INFO - URCA - 2019
             </footer>
 
 HTML

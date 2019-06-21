@@ -6,6 +6,7 @@ $(document).ready(function(){
                 {param: 0},
                 function (data) {
                     $('h4').text("Début du jeu");
+                    $('header').append(data);
                 },
                 "HTML"
             );

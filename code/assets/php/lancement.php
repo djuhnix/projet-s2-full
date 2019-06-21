@@ -6,10 +6,21 @@
  * Time: 15:33
  */
 
-<?php
+
 require_once("autoload.php");
 
 $player1 = new Joueur();
 $baton = new Arme("baton","simple bout de bois comme on en voit partout dans la foret",1);
 $player1->prendreObjet($baton);
 
+
+
+
+$rep = <<<HTML
+    <div>
+        <p> Merci d'avoir jouer ... </p>
+        <p> Veuillez acheter le DLC pour bénéficier d'une version plus complète </p>
+    </div>
+HTML;
+
+echo $rep;
