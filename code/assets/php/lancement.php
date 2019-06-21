@@ -6,14 +6,10 @@
  * Time: 15:33
  */
 
-<<<<<<< HEAD
 <?php
 require_once("autoload.php");
 
 $player1 = new Joueur();
-$epee = new Arme("epee","",2);
-$player1->prendreObjet($epee);
+$baton = new Arme("baton","simple bout de bois comme on en voit partout dans la foret",1);
+$player1->prendreObjet($baton);
 
-=======
-//echo "";
->>>>>>> cc04b430862399b56d56f02d1233486ae9f53b16
