@@ -17,7 +17,7 @@ class Map
     private $tileSet = Array();    //  Final outcome of each tile
     //protected $map = Array();    //   Rows/Columns of the map
 
-    public function __construct(string $file)
+    public function __construct(string $file, int $tsize)
     {
 
 
@@ -33,7 +33,7 @@ class Map
 
         if ($handle) {
             $i = 0;
-            while (($buffer = fgets($handle,4096)) !== false) {
+            while (($buffer = fgets($handle)) !== false) {
 
 
                 //Currently in the map file's contents
@@ -55,7 +55,7 @@ class Map
         }
 
 
-        $this->tileSet = $this->generateMap($this -> mapArray);
+        $this->tileSet = $this->generateMap($this -> mapArray, $tsize);
         //var_dump($this ->tileSet);
         if($this->tileSet == null)
         {
@@ -65,7 +65,7 @@ class Map
 
     }
 
-    protected function generateMap(array $mapset) : array {
+    protected function generateMap(array $mapset, int $tsize) : array {
 
         //Generate map based on the mapArray
         $map = Array();
@@ -83,17 +83,19 @@ class Map
                 //$this -> map[$i][] = "<img src=\"".$imageLoc."/".$tile.".png\" />";
                 if ($tile !== 0) { // 0 => empty tile
                     $map[$i][] = <<<JS
-                    
-                    ctx.drawImage(img,// image
-                                  ($tile - 1) * img.width,//sourcex
-                                  0,              //sourcey
-                                  img.width,     // source width
-                                  img.width,     // source height
-                                  $i * img.width,  // target x
-                                  $j * img.width, // target y
-                                  img.width,     // target width
-                                  img.width  // target height 
+                    img.onload = function(){
+                        ctx.drawImage(img,
+                                  ($tile - 1) * {$tsize},
+                                  0,              
+                                  {$tsize},    
+                                  {$tsize},     
+                                  $i * {$tsize},  
+                                  $j * {$tsize}, 
+                                  {$tsize},   
+                                  {$tsize} 
                                   );
+                    };
+                    
 
 JS;
                 }

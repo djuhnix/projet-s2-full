@@ -16,12 +16,10 @@ $player1->prendreObjet($baton);
 $slime = new Ennemi("slime",3,1,2, $epeeRouillee);
 $gobelin = new Ennemi("Gobelin",6,1,4, $epeeGobeline);
 */
-$forest = new Map("../map/forest.csv");
-$script = <<<HTML
-    <script >
-        {$forest ->showMap("../map/tiles.png","main")}
-    </script>
-HTML;
+$forest = new Map("../map/forest.csv",64);
+$script = <<<JS
+        {$forest ->showMap("assets/map/tiles.png","main")}
+JS;
 
 /*
 $rep = <<<HTML

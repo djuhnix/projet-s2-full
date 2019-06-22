@@ -2,16 +2,16 @@
 @import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap');
 #main {
     background-color: #2a2d35;
-    width: 800px;
-    height: 512px;
-    margin: 0 auto;
-    align-content: center ;
 
 }
 
 
 body{
     background-color: #2a2d35;
+}
+
+h4{
+    margin: 10px auto ;
 }
 
 #title {
@@ -26,6 +26,7 @@ body{
 #enter {
     animation: animButton alternate infinite .6s linear ;
 }
+
 @keyframes animButton {
     from{
         margin-top: 0;
