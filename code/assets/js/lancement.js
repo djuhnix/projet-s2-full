@@ -3,10 +3,11 @@ $(document).ready(function(){
         if (event.which === 13) {
             $.get(
                 "assets/php/lancement.php",
-                {param: 0},
+                //{param: 0},
                 function (data) {
                     $('h4').text("Début du jeu");
-                    $('header').append(data);
+                    //console.log(data);
+                    $('body').append(data);
                 },
                 "HTML"
             );

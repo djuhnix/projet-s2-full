@@ -14,16 +14,16 @@ class Map
 {
 
     protected $mapArray = Array(); // Reading of the map file's
-    public $tileSet = Array();    //  Final outcome of each tile
-    protected $map = Array();    //   Rows/Columns of the map
+    private $tileSet = Array();    //  Final outcome of each tile
+    //protected $map = Array();    //   Rows/Columns of the map
 
-    public function __construct(string $file, $imageLocation)
+    public function __construct(string $file)
     {
 
 
         //Generate map array based off of file
 
-        $handle = @fopen($file, "r");
+        $handle = fopen($file, "r");
         //$file = file_get_contents($file_name, true );
         /*
         $json = json_decode($file, true);
@@ -33,7 +33,7 @@ class Map
 
         if ($handle) {
             $i = 0;
-            while (($buffer = fgets($handle)) !== false) {
+            while (($buffer = fgets($handle,4096)) !== false) {
 
 
                 //Currently in the map file's contents
@@ -42,7 +42,7 @@ class Map
 
                 foreach ($row as $tile) {
                     //This is each individual tile within each row
-
+                    //echo $tile;
                     $this -> mapArray[$i][] = $tile;
                 }
 
@@ -55,21 +55,23 @@ class Map
         }
 
 
-        $this->tileSet = $this->generateMap($this -> mapArray, $imageLocation);
-
+        $this->tileSet = $this->generateMap($this -> mapArray);
+        //var_dump($this ->tileSet);
         if($this->tileSet == null)
         {
             throw new Exception("Unexpected error generating map");
         }
 
+
     }
 
-    protected function generateMap(array $mapset, string $imageLoc) : array {
+    protected function generateMap(array $mapset) : array {
 
         //Generate map based on the mapArray
-
-        $i = 0;
-
+        $map = Array();
+        $i = 0;//cols
+        $j = 0; //rows
+        //var_dump($mapset);
         foreach($mapset as $row)
         {
             //Current row in the mapArray
@@ -79,10 +81,23 @@ class Map
                 //Current tile in the mapArray
 
                 //$this -> map[$i][] = "<img src=\"".$imageLoc."/".$tile.".png\" />";
-                $this -> map[$i][] = <<<JS
-                $("#main");
-JS;
+                if ($tile !== 0) { // 0 => empty tile
+                    $map[$i][] = <<<JS
+                    
+                    ctx.drawImage(img,// image
+                                  ($tile - 1) * img.width,//sourcex
+                                  0,              //sourcey
+                                  img.width,     // source width
+                                  img.width,     // source height
+                                  $i * img.width,  // target x
+                                  $j * img.width, // target y
+                                  img.width,     // target width
+                                  img.width  // target height 
+                                  );
 
+JS;
+                }
+                $j++;
             }
 
             $i++;
@@ -91,10 +106,15 @@ JS;
         return $map;
     }
 
-    public function showMap() {
+    public function showMap(string $imageLoc, string $contextId) {
 
         //Show the map
-
+        $mapJS = <<<JS
+        var img = new Image(); 
+        img.src = "$imageLoc";
+        var ctx = document.getElementById('$contextId').getContext('2d');
+        
+JS;
         if($this->tileSet != null)
         {
 
@@ -109,10 +129,8 @@ JS;
                 {
                     //Current tile in the tileSet
 
-                    print $tile;
+                    $mapJS .= $tile;
                 }
-
-                print "<br />";
 
                 $i++;
             }
@@ -120,6 +138,7 @@ JS;
         }else{
             throw new Exception("Tileset is empty.");
         }
+        return $mapJS;
     }
 
 

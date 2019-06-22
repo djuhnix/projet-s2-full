@@ -16,14 +16,19 @@ $player1->prendreObjet($baton);
 $slime = new Ennemi("slime",3,1,2, $epeeRouillee);
 $gobelin = new Ennemi("Gobelin",6,1,4, $epeeGobeline);
 */
-//$forest = new Map("../assets/map/forest.csv", "../assets/map/tiles.png");
+$forest = new Map("../map/forest.csv");
+$script = <<<HTML
+    <script >
+        {$forest ->showMap("../map/tiles.png","main")}
+    </script>
+HTML;
 
-
+/*
 $rep = <<<HTML
     <div>
         <p> Merci d'avoir joué ... </p>
         <p> Veuillez acheter le DLC pour bénéficier d'une version plus complète </p>
     </div>
 HTML;
-
-echo $rep;
+*/
+echo $script;
