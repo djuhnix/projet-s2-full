@@ -16,12 +16,12 @@
 <a name="installation"></a>
 ### Installation
 - Mettez à jour votre système (recommandé)
-    sudo apt update
-    sudo apt upgrade
-    sudo apt update
+        sudo apt update
+        sudo apt upgrade
+        sudo apt update
 
 - Installer le serveur Web :
-    sudo apt install apache2
+        sudo apt install apache2
 
 
 <a name="link"></a>
