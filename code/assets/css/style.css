@@ -10,9 +10,6 @@ body{
     background-color: #2a2d35;
 }
 
-h4{
-    margin: 10px auto ;
-}
 
 #title {
     font-family: 'Lobster', cursive;
@@ -23,8 +20,9 @@ h4{
 
 }
 
-#enter {
+.enter {
     animation: animButton alternate infinite .6s linear ;
+    position : absolute;
 }
 
 @keyframes animButton {
@@ -33,7 +31,7 @@ h4{
         box-shadow: 0 4px 4px #bbb;
     }
     to{
-        margin-top: -6px;
+        margin-top: -5px;
         box-shadow: 0 10px 10px #333;
     }
 

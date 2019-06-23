@@ -1,14 +1,15 @@
 <?php
 require_once("assets/php/autoload.php");
 $page = new WebPage("Acceuil", true);
-$page -> appendJsUrl(["assets/js/lancement.js","assets/js/map_n.js"]);
+$page -> appendJsUrl(["assets/js/lancement.js","assets/js/common.js","assets/js/map.js"]);//,]);
 $page -> appendCssUrl("assets/css/style.css");
 $page -> appendContent(<<<HTML
 
         <header class="text-center text-light">
                 <h1 id="title" class="py-2">  Angel's Quest </h1>
                 <h4 class="subtitle">
-                    Appuyez sur <span> <img id="enter" alt="bouton entrer" src="assets/icon/enter-icon.png"> </span> pour commencer
+                    <!--Appuyez sur <span> <img id="enter" alt="bouton entrer" src="assets/icon/enter-icon.png"> </span> pour commencer-->
+                    La quête au rpg perdu
                 </h4>
         </header>
         <div class="mx-auto" style="width: 512px; height: auto">
