@@ -1,6 +1,6 @@
 <?php
 /**
- *
+ *La classe énumération nommée etatQuete 
  */
 class EtatQuete
 {
