@@ -5,12 +5,15 @@
 
 })();
 */
+var y =0;
+var x =0;
 $(document).ready(function()
 {
 if ($x % 64 == 1)
 {
-    if($x > $precX)
+    if(x > precX)
     {
+
         $.post(
             "assets/php/deplacements.php",
             { x: 1,y =0 },
@@ -36,7 +39,7 @@ if ($x % 64 == 1)
 
     if ($y % 64 == 1)
     {
-        if($y > $precY)
+        if(y > precY)
         {
             $.post(
                 "assets/php/deplacements.php",

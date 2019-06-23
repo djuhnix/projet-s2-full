@@ -6,15 +6,17 @@
  * Time: 15:31
  */
 
-$rep = $_POST["prems"];
+$x = $_POST["x"];
+$y = $_POST["y"];
 $dir = "Direction :";
-if ($rep == 0)
+if ($x == -1)
     $dir .= "Gauche";
-elseif ($rep == 1)
+
+elseif ($x == 1)
+    $dir .= "droite";
+if ($y == 1)
     $dir .= "Haut";
-elseif ($rep == 2)
-    $dir .= "Droite";
-elseif ($rep == 3)
+elseif ($y == -1)
     $dir .= "Bas";
 
 $var = <<<HTML
