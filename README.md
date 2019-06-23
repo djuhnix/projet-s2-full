@@ -16,12 +16,23 @@
 <a name="installation"></a>
 ### Installation
 - Mettez à jour votre système (recommandé)
+
         sudo apt update
         sudo apt upgrade
         sudo apt update
 
-- Installer le serveur Web :
+- Installez le serveur Web :
+
         sudo apt install apache2
+
+- Gerstion des problème de droits d'acces : 
+ 
+        sudo chown -R $USER:www-data /var/www/html/
+        sudo chmod -R 770 /var/www/html/
+
+- Installer PHP :
+
+        sudo apt install php php-mbstring
 
 
 <a name="link"></a>
