@@ -15,13 +15,13 @@
 
 <a name="installation"></a>
 ### Installation
-- Mettez à jour votre système (recommandé)
+- Mettre à jour votre système (recommandé)
 
         sudo apt update
         sudo apt upgrade
         sudo apt update
 
-- Installez le serveur Web :
+- Installer le serveur Web :
 
         sudo apt install apache2
 
@@ -33,6 +33,12 @@
 - Installer PHP :
 
         sudo apt install php php-mbstring
+
+- Cloner le projet :
+
+        git clone https://iut-info.univ-reims.fr/gitlab/olea0001/projet-s2.git
+
+-    
 
 
 <a name="link"></a>
