@@ -1,0 +1,9 @@
+# folder
+**.idea/
+code/.idea
+code/.vcs
+
+# file
+*.cfg
+*.tmp
+^[~$]*
