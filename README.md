@@ -1,5 +1,21 @@
-# Angel's Quest
+#### Angel's Quest
 
+### Sommaire
+
+1. [Pré-requis](#requirments)
+2. [Installation](#installation)
+3. [Executer en local](#runningindevelopmentenvironment)
+4. [Liens](#link)
+
+<a name="requirements"></a>
+### Pré-requis pour l'instalation sous Linux.
+- serveur Apache
+- PHP 5
+
+<a name="installation"></a>
+### Installation
+
+<a name="link"></a>
 ### Liens
 - [Phaser - World-wrap](https://phaser.io/examples/v2/world/world-wrap)
 - [Envoi d'objet JS vers PHP](https://forum.alsacreations.com/topic-5-27190-1-resolu-Envoi-dobjet-javascript-vers-PHP.html)
