@@ -1,13 +1,11 @@
 # folder
 
-/.idea/*
-/.idea/**
-/code/.vs/
+.idea/*
+.idea/**
+code/.vs/
+code/.idea/**
 
 # file
 *.cfg
 *.tmp
 ^[~$]*
-/.idea/
-/.idea/projet-s2.iml
-/.idea/workspace.xml
